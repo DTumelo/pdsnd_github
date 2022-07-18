@@ -7,7 +7,8 @@
 Version Control_Github Project
 
 ### Description
-In this project, the main tasks involve simulating a realistic workflow using a project from a previous course. The project was BikeShare; using Python, one has to analysis users data across multiple city and generate a few basic understanding of how users interacted with the services offered by BikeShare.
+In this project, the main tasks involve simulating a realistic workflow using a project from a previous course.
+The project was on BikeShare. This is a bicycle renting business. Using Python, one has to analysis users data across multiple cities and generate a few basic stats to help with understanding how users interacted with the services offered by BikeShare.
 
 ### Files used
 chicago.csv
