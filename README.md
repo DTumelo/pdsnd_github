@@ -1,17 +1,20 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-Include the date you created this project and README file.
+17 July 2022
 
 ### Project Title
-Replace the Project Title
+Version Control_Github Project
 
 ### Description
-Describe what your project is about and what it does
+In this project, the main tasks involve simulating a realistic workflow using a project from a previous course. The project was BikeShare; using Python, one has to analysis users data across multiple city and generate a few basic understanding of how users interacted with the services offered by BikeShare.
 
 ### Files used
-Include the files used
+chicago.csv
+washington.csv
+new_york_city.csv
+TMachethe Python Assignment.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+https://stackoverflow.com/
+https://github.com/udacity/pdsnd_github
