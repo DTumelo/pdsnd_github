@@ -274,13 +274,13 @@ def Raw_data(df):
     Row_length = df.shape[0]
         
     # iterates through the dataset in steps of 5 rows.
-    for i in range(0, Row_length, 5):
+    for ix in range(0, Row_length, 5):
         Raw_dataset_query = input('\nWould you like to see the raw dataset in subsets of 5 rows? Type \'yes\' or \'no\'\n> ')
         if Raw_dataset_query.lower() != 'yes':
             break
         
         # retrieve 5 rows of the raw dataset
-        Raw_data = df.iloc[i: i + 5]
+        Raw_data = df.iloc[ix: ix + 5]
         Raw_data.drop(columns=df.columns[0], axis=1, inplace=True)
         
         print(tabulate(Raw_data, headers = 'keys', tablefmt = 'psql',showindex ='False',stralign=('left'),numalign='left'),)
