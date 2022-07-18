@@ -169,7 +169,8 @@ def Popular_station_stats(df):
     print('-'*70)
 
 def Trip_duration_stats(df):
-    """Displays statistics on the total and average trip duration."""
+    
+    """Analyses and displays statistics on the total and average trip duration."""
 
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
@@ -205,6 +206,7 @@ def Trip_duration_stats(df):
 
 
 def User_stats(df):
+    
     """Displays statistics on bikeshare users."""
 
     print('\nCalculating User Stats...\n')
@@ -288,6 +290,9 @@ def Raw_data(df):
         
 
 def main():
+    
+    """This is the main driver code to run the programme."""
+    
     while True:
         city, month, day = get_filters()
         df = Load_data(city, month, day)
